@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B67CF0D2AAB183B003CBF81 /* Zone_Meter_iOS_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67CF0C2AAB183B003CBF81 /* Zone_Meter_iOS_appApp.swift */; };
+		4B67CF0F2AAB183B003CBF81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67CF0E2AAB183B003CBF81 /* ContentView.swift */; };
+		4B67CF112AAB183C003CBF81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B67CF102AAB183C003CBF81 /* Assets.xcassets */; };
+		4B67CF142AAB183C003CBF81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B67CF132AAB183C003CBF81 /* Preview Assets.xcassets */; };
+		4B67CF1E2AAB183C003CBF81 /* Zone_Meter_iOS_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67CF1D2AAB183C003CBF81 /* Zone_Meter_iOS_appTests.swift */; };
+		4B67CF282AAB183C003CBF81 /* Zone_Meter_iOS_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67CF272AAB183C003CBF81 /* Zone_Meter_iOS_appUITests.swift */; };
+		4B67CF2A2AAB183C003CBF81 /* Zone_Meter_iOS_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67CF292AAB183C003CBF81 /* Zone_Meter_iOS_appUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B67CF1A2AAB183C003CBF81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B67CF012AAB183B003CBF81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B67CF082AAB183B003CBF81;
+			remoteInfo = "Zone-Meter-iOS-app";
+		};
+		4B67CF242AAB183C003CBF81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B67CF012AAB183B003CBF81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B67CF082AAB183B003CBF81;
+			remoteInfo = "Zone-Meter-iOS-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B67CF092AAB183B003CBF81 /* Zone-Meter-iOS-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zone-Meter-iOS-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B67CF0C2AAB183B003CBF81 /* Zone_Meter_iOS_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zone_Meter_iOS_appApp.swift; sourceTree = "<group>"; };
+		4B67CF0E2AAB183B003CBF81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4B67CF102AAB183C003CBF81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B67CF132AAB183C003CBF81 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4B67CF192AAB183C003CBF81 /* Zone-Meter-iOS-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zone-Meter-iOS-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B67CF1D2AAB183C003CBF81 /* Zone_Meter_iOS_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zone_Meter_iOS_appTests.swift; sourceTree = "<group>"; };
+		4B67CF232AAB183C003CBF81 /* Zone-Meter-iOS-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zone-Meter-iOS-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B67CF272AAB183C003CBF81 /* Zone_Meter_iOS_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zone_Meter_iOS_appUITests.swift; sourceTree = "<group>"; };
+		4B67CF292AAB183C003CBF81 /* Zone_Meter_iOS_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zone_Meter_iOS_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B67CF062AAB183B003CBF81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B67CF162AAB183C003CBF81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B67CF202AAB183C003CBF81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B67CF002AAB183B003CBF81 = {
+			isa = PBXGroup;
+			children = (
+				4B67CF0B2AAB183B003CBF81 /* Zone-Meter-iOS-app */,
+				4B67CF1C2AAB183C003CBF81 /* Zone-Meter-iOS-appTests */,
+				4B67CF262AAB183C003CBF81 /* Zone-Meter-iOS-appUITests */,
+				4B67CF0A2AAB183B003CBF81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B67CF0A2AAB183B003CBF81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B67CF092AAB183B003CBF81 /* Zone-Meter-iOS-app.app */,
+				4B67CF192AAB183C003CBF81 /* Zone-Meter-iOS-appTests.xctest */,
+				4B67CF232AAB183C003CBF81 /* Zone-Meter-iOS-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B67CF0B2AAB183B003CBF81 /* Zone-Meter-iOS-app */ = {
+			isa = PBXGroup;
+			children = (
+				4B67CF0C2AAB183B003CBF81 /* Zone_Meter_iOS_appApp.swift */,
+				4B67CF0E2AAB183B003CBF81 /* ContentView.swift */,
+				4B67CF102AAB183C003CBF81 /* Assets.xcassets */,
+				4B67CF122AAB183C003CBF81 /* Preview Content */,
+			);
+			path = "Zone-Meter-iOS-app";
+			sourceTree = "<group>";
+		};
+		4B67CF122AAB183C003CBF81 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4B67CF132AAB183C003CBF81 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4B67CF1C2AAB183C003CBF81 /* Zone-Meter-iOS-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B67CF1D2AAB183C003CBF81 /* Zone_Meter_iOS_appTests.swift */,
+			);
+			path = "Zone-Meter-iOS-appTests";
+			sourceTree = "<group>";
+		};
+		4B67CF262AAB183C003CBF81 /* Zone-Meter-iOS-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B67CF272AAB183C003CBF81 /* Zone_Meter_iOS_appUITests.swift */,
+				4B67CF292AAB183C003CBF81 /* Zone_Meter_iOS_appUITestsLaunchTests.swift */,
+			);
+			path = "Zone-Meter-iOS-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B67CF082AAB183B003CBF81 /* Zone-Meter-iOS-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B67CF2D2AAB183C003CBF81 /* Build configuration list for PBXNativeTarget "Zone-Meter-iOS-app" */;
+			buildPhases = (
+				4B67CF052AAB183B003CBF81 /* Sources */,
+				4B67CF062AAB183B003CBF81 /* Frameworks */,
+				4B67CF072AAB183B003CBF81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zone-Meter-iOS-app";
+			productName = "Zone-Meter-iOS-app";
+			productReference = 4B67CF092AAB183B003CBF81 /* Zone-Meter-iOS-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B67CF182AAB183C003CBF81 /* Zone-Meter-iOS-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B67CF302AAB183C003CBF81 /* Build configuration list for PBXNativeTarget "Zone-Meter-iOS-appTests" */;
+			buildPhases = (
+				4B67CF152AAB183C003CBF81 /* Sources */,
+				4B67CF162AAB183C003CBF81 /* Frameworks */,
+				4B67CF172AAB183C003CBF81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B67CF1B2AAB183C003CBF81 /* PBXTargetDependency */,
+			);
+			name = "Zone-Meter-iOS-appTests";
+			productName = "Zone-Meter-iOS-appTests";
+			productReference = 4B67CF192AAB183C003CBF81 /* Zone-Meter-iOS-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B67CF222AAB183C003CBF81 /* Zone-Meter-iOS-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B67CF332AAB183C003CBF81 /* Build configuration list for PBXNativeTarget "Zone-Meter-iOS-appUITests" */;
+			buildPhases = (
+				4B67CF1F2AAB183C003CBF81 /* Sources */,
+				4B67CF202AAB183C003CBF81 /* Frameworks */,
+				4B67CF212AAB183C003CBF81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B67CF252AAB183C003CBF81 /* PBXTargetDependency */,
+			);
+			name = "Zone-Meter-iOS-appUITests";
+			productName = "Zone-Meter-iOS-appUITests";
+			productReference = 4B67CF232AAB183C003CBF81 /* Zone-Meter-iOS-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B67CF012AAB183B003CBF81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4B67CF082AAB183B003CBF81 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					4B67CF182AAB183C003CBF81 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 4B67CF082AAB183B003CBF81;
+					};
+					4B67CF222AAB183C003CBF81 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 4B67CF082AAB183B003CBF81;
+					};
+				};
+			};
+			buildConfigurationList = 4B67CF042AAB183B003CBF81 /* Build configuration list for PBXProject "Zone-Meter-iOS-app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B67CF002AAB183B003CBF81;
+			productRefGroup = 4B67CF0A2AAB183B003CBF81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B67CF082AAB183B003CBF81 /* Zone-Meter-iOS-app */,
+				4B67CF182AAB183C003CBF81 /* Zone-Meter-iOS-appTests */,
+				4B67CF222AAB183C003CBF81 /* Zone-Meter-iOS-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B67CF072AAB183B003CBF81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B67CF142AAB183C003CBF81 /* Preview Assets.xcassets in Resources */,
+				4B67CF112AAB183C003CBF81 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B67CF172AAB183C003CBF81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B67CF212AAB183C003CBF81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B67CF052AAB183B003CBF81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B67CF0F2AAB183B003CBF81 /* ContentView.swift in Sources */,
+				4B67CF0D2AAB183B003CBF81 /* Zone_Meter_iOS_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B67CF152AAB183C003CBF81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B67CF1E2AAB183C003CBF81 /* Zone_Meter_iOS_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B67CF1F2AAB183C003CBF81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B67CF2A2AAB183C003CBF81 /* Zone_Meter_iOS_appUITestsLaunchTests.swift in Sources */,
+				4B67CF282AAB183C003CBF81 /* Zone_Meter_iOS_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B67CF1B2AAB183C003CBF81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B67CF082AAB183B003CBF81 /* Zone-Meter-iOS-app */;
+			targetProxy = 4B67CF1A2AAB183C003CBF81 /* PBXContainerItemProxy */;
+		};
+		4B67CF252AAB183C003CBF81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B67CF082AAB183B003CBF81 /* Zone-Meter-iOS-app */;
+			targetProxy = 4B67CF242AAB183C003CBF81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4B67CF2B2AAB183C003CBF81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B67CF2C2AAB183C003CBF81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B67CF2E2AAB183C003CBF81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zone-Meter-iOS-app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duttaphoto.Zone-Meter-iOS-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B67CF2F2AAB183C003CBF81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zone-Meter-iOS-app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duttaphoto.Zone-Meter-iOS-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B67CF312AAB183C003CBF81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duttaphoto.Zone-Meter-iOS-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zone-Meter-iOS-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zone-Meter-iOS-app";
+			};
+			name = Debug;
+		};
+		4B67CF322AAB183C003CBF81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duttaphoto.Zone-Meter-iOS-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zone-Meter-iOS-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zone-Meter-iOS-app";
+			};
+			name = Release;
+		};
+		4B67CF342AAB183C003CBF81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duttaphoto.Zone-Meter-iOS-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Zone-Meter-iOS-app";
+			};
+			name = Debug;
+		};
+		4B67CF352AAB183C003CBF81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duttaphoto.Zone-Meter-iOS-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Zone-Meter-iOS-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B67CF042AAB183B003CBF81 /* Build configuration list for PBXProject "Zone-Meter-iOS-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B67CF2B2AAB183C003CBF81 /* Debug */,
+				4B67CF2C2AAB183C003CBF81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B67CF2D2AAB183C003CBF81 /* Build configuration list for PBXNativeTarget "Zone-Meter-iOS-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B67CF2E2AAB183C003CBF81 /* Debug */,
+				4B67CF2F2AAB183C003CBF81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B67CF302AAB183C003CBF81 /* Build configuration list for PBXNativeTarget "Zone-Meter-iOS-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B67CF312AAB183C003CBF81 /* Debug */,
+				4B67CF322AAB183C003CBF81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B67CF332AAB183C003CBF81 /* Build configuration list for PBXNativeTarget "Zone-Meter-iOS-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B67CF342AAB183C003CBF81 /* Debug */,
+				4B67CF352AAB183C003CBF81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B67CF012AAB183B003CBF81 /* Project object */;
+}
