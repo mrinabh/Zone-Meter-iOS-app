@@ -19,11 +19,11 @@ struct ContentView: View {
             ZoneSystem2()
                 .tabItem {
                     Image(systemName: "camera.metering.multispot");Text("Multi Exposure")
-                }.tag(1)
+                }.tag(2)
             HelpView()
                 .tabItem {
                     Image(systemName: "questionmark.circle");Text("Help")
-                }.tag(2)
+                }.tag(3)
         }
     }
 }
