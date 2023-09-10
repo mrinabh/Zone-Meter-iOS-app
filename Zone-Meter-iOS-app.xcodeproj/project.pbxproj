@@ -15,6 +15,7 @@
 		4B67CF282AAB183C003CBF81 /* Zone_Meter_iOS_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67CF272AAB183C003CBF81 /* Zone_Meter_iOS_appUITests.swift */; };
 		4B67CF2A2AAB183C003CBF81 /* Zone_Meter_iOS_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67CF292AAB183C003CBF81 /* Zone_Meter_iOS_appUITestsLaunchTests.swift */; };
 		4B72E6BD2AABC88C00AD145F /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B72E6BC2AABC88C00AD145F /* HelpView.swift */; };
+		4BCD7F832AADBC970079C2AD /* ZoneSystem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCD7F822AADBC970079C2AD /* ZoneSystem2.swift */; };
 		4BFB96122AABBDE000B1FB7E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFB96112AABBDE000B1FB7E /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		4B67CF272AAB183C003CBF81 /* Zone_Meter_iOS_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zone_Meter_iOS_appUITests.swift; sourceTree = "<group>"; };
 		4B67CF292AAB183C003CBF81 /* Zone_Meter_iOS_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zone_Meter_iOS_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4B72E6BC2AABC88C00AD145F /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		4BCD7F822AADBC970079C2AD /* ZoneSystem2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneSystem2.swift; sourceTree = "<group>"; };
 		4BFB96112AABBDE000B1FB7E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +139,7 @@
 			children = (
 				4BFB96112AABBDE000B1FB7E /* HomeView.swift */,
 				4B72E6BC2AABC88C00AD145F /* HelpView.swift */,
+				4BCD7F822AADBC970079C2AD /* ZoneSystem2.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BFB96122AABBDE000B1FB7E /* HomeView.swift in Sources */,
+				4BCD7F832AADBC970079C2AD /* ZoneSystem2.swift in Sources */,
 				4B72E6BD2AABC88C00AD145F /* HelpView.swift in Sources */,
 				4B67CF0F2AAB183B003CBF81 /* ContentView.swift in Sources */,
 				4B67CF0D2AAB183B003CBF81 /* Zone_Meter_iOS_appApp.swift in Sources */,
@@ -435,11 +439,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Zone-Meter-iOS-app/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Zone System";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,9 +453,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.duttaphoto.Zone-Meter-iOS-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -463,11 +472,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Zone-Meter-iOS-app/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Zone System";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,9 +486,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.duttaphoto.Zone-Meter-iOS-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
