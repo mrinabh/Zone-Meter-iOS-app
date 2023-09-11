@@ -74,13 +74,12 @@ struct ZoneSystem2: View {
                                         .frame(width: 40, height: 30)
                                 }.frame(maxWidth: 90)
                                 
+                                // Find the arithmetic mean of exposure 1 & 2
+                                let zone_five_exposure:Int = (shutter_speed1 + shutter_speed2)/2
+                                let speed:Int = zone_five_exposure - 5 + zindex
+                                
                                 VStack {
                                     // Computed exposure values against zones
-                                    
-                                    // Find the arithmetic mean of exposure 1 & 2
-                                    let zone_five_exposure:Int = (shutter_speed1 + shutter_speed2)/2
-                                    let speed:Int = zone_five_exposure - 5 + zindex
-                                    
                                     if speed >= 0 && speed < shutter_speeds.count {
                                         if(zindex == 5) {
                                             Text(shutter_speeds[speed])
@@ -103,6 +102,26 @@ struct ZoneSystem2: View {
                                         }
                                     }
                                 }.frame(maxWidth:200, alignment: .leading)
+                                
+                                if(shutter_speed1 < shutter_speed2) {
+                                    if(speed > shutter_speed1 && zindex == 0) {
+                                        Label(shutter_speeds[shutter_speed1], systemImage: "arrow.up")
+                                            .foregroundColor(.purple)
+                                    }
+                                    if(speed < shutter_speed2 && zindex == 10) {
+                                        Label(shutter_speeds[shutter_speed2], systemImage: "arrow.down")
+                                            .foregroundColor(.purple)
+                                    }
+                                } else {
+                                    if(speed > shutter_speed2 && zindex == 0) {
+                                        Label(shutter_speeds[shutter_speed2], systemImage: "arrow.up")
+                                            .foregroundColor(.purple)
+                                    }
+                                    if(speed < shutter_speed1 && zindex == 10) {
+                                        Label(shutter_speeds[shutter_speed1], systemImage: "arrow.down")
+                                            .foregroundColor(.purple)
+                                    }
+                                }
                             }
                         }
                     }
