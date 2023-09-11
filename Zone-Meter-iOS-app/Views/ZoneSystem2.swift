@@ -75,7 +75,16 @@ struct ZoneSystem2: View {
                                     
                                     let speed:Int = zone_five_exposure - 5 + zindex
                                     if speed >= 0 && speed < shutter_speeds.count {
-                                        Text(shutter_speeds[speed])
+                                        if(speed == shutter_speed1) {
+                                            Text(shutter_speeds[speed])
+                                            .foregroundColor(.blue)
+                                        } else if(speed == shutter_speed2) {
+                                            Text(shutter_speeds[speed])
+                                            .foregroundColor(.red)
+                                        } else {
+                                            Text(shutter_speeds[speed])
+                                                .foregroundColor(.gray)
+                                        }
                                     } else {
                                         if(speed < 1) {
                                             Text("--").foregroundColor(.blue)
