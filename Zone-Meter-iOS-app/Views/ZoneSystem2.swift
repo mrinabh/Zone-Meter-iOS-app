@@ -103,23 +103,34 @@ struct ZoneSystem2: View {
                                     }
                                 }.frame(maxWidth:200, alignment: .leading)
                                 
-                                if(shutter_speed1 < shutter_speed2) {
-                                    if(speed > shutter_speed1 && zindex == 0) {
-                                        Label(shutter_speeds[shutter_speed1], systemImage: "arrow.up")
+                                // Display warning if under/over exposed
+                                VStack {
+                                    if((speed == shutter_speed1 || speed == shutter_speed2) && (zindex < 2 || zindex > 8)) {
+                                        Label("", systemImage: "bolt.trianglebadge.exclamationmark")
                                             .foregroundColor(.purple)
                                     }
-                                    if(speed < shutter_speed2 && zindex == 10) {
-                                        Label(shutter_speeds[shutter_speed2], systemImage: "arrow.down")
-                                            .foregroundColor(.purple)
-                                    }
-                                } else {
-                                    if(speed > shutter_speed2 && zindex == 0) {
-                                        Label(shutter_speeds[shutter_speed2], systemImage: "arrow.up")
-                                            .foregroundColor(.purple)
-                                    }
-                                    if(speed < shutter_speed1 && zindex == 10) {
-                                        Label(shutter_speeds[shutter_speed1], systemImage: "arrow.down")
-                                            .foregroundColor(.purple)
+                                }
+                                
+                                // Show indicators when selected exp values are outside zone system bounds
+                                VStack {
+                                    if(shutter_speed1 < shutter_speed2) {
+                                        if(speed > shutter_speed1 && zindex == 0) {
+                                            Label(shutter_speeds[shutter_speed1], systemImage: "arrow.up")
+                                                .foregroundColor(.purple)
+                                        }
+                                        if(speed < shutter_speed2 && zindex == 10) {
+                                            Label(shutter_speeds[shutter_speed2], systemImage: "arrow.down")
+                                                .foregroundColor(.purple)
+                                        }
+                                    } else {
+                                        if(speed > shutter_speed2 && zindex == 0) {
+                                            Label(shutter_speeds[shutter_speed2], systemImage: "arrow.up")
+                                                .foregroundColor(.purple)
+                                        }
+                                        if(speed < shutter_speed1 && zindex == 10) {
+                                            Label(shutter_speeds[shutter_speed1], systemImage: "arrow.down")
+                                                .foregroundColor(.purple)
+                                        }
                                     }
                                 }
                             }
