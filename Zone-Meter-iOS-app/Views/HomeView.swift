@@ -71,12 +71,22 @@ struct HomeView: View {
                                     // Shutter speeds
                                     let speed:Int = shutter_speed - zone + zindex
                                     if speed >= 0 && speed < shutter_speeds.count {
-                                        Text(shutter_speeds[speed])
+                                        if(zindex == 5) {
+                                            Text(shutter_speeds[speed])
+                                                .bold()
+                                        } else if(speed == shutter_speed) {
+                                            Text(shutter_speeds[speed])
+                                                .foregroundColor(.blue)
+                                        } else {
+                                            Text(shutter_speeds[speed])
+                                                .foregroundColor(.gray)
+                                        }
+                                        
                                     } else {
                                         if(speed < 0) {
-                                            Text("Under exposed").foregroundColor(.blue)
+                                            Text("--").foregroundColor(.blue)
                                         } else if (speed >= shutter_speeds.count ) {
-                                            Text("Over exposed").foregroundColor(.red)
+                                            Text("--").foregroundColor(.red)
                                         }
                                     }
                                 }.frame(maxWidth:200, alignment: .leading)

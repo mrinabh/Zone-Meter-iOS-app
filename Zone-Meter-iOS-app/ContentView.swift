@@ -14,12 +14,16 @@ struct ContentView: View {
         TabView(selection: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Selection@*/.constant(1)/*@END_MENU_TOKEN@*/) {
             HomeView()
                 .tabItem {
-                    Image(systemName: "camera.metering.matrix");Text("Zone System")
+                    Image(systemName: "camera.metering.matrix");Text("Single Exposure")
                 }.tag(1)
+            ZoneSystem2()
+                .tabItem {
+                    Image(systemName: "camera.metering.multispot");Text("Multi Exposure")
+                }.tag(2)
             HelpView()
                 .tabItem {
                     Image(systemName: "questionmark.circle");Text("Help")
-                }.tag(2)
+                }.tag(3)
         }
     }
 }
