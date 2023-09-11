@@ -27,7 +27,9 @@ struct ZoneSystem2: View {
                 VStack {
                     HStack {
                         // Exposure selection
-                        Text("Exposure 1").frame(minWidth: 200, alignment: .leading)
+                        Text("Exposure 1")
+                            .frame(minWidth: 200, alignment: .leading)
+                            .foregroundColor(.blue)
                         Picker("Shutter Speed", selection: $shutter_speed1) {
                             ForEach(shutter_speeds.indices, id: \.self) { index in
                                 Text(shutter_speeds[index])
@@ -38,7 +40,9 @@ struct ZoneSystem2: View {
                     
                     HStack {
                         // Exposure selection
-                        Text("Exposure 2").frame(minWidth: 200, alignment: .leading)
+                        Text("Exposure 2")
+                            .frame(minWidth: 200, alignment: .leading)
+                            .foregroundColor(.red)
                         Picker("Shutter Speed", selection: $shutter_speed2) {
                             ForEach(shutter_speeds.indices, id: \.self) { index in
                                 Text(shutter_speeds[index])
@@ -58,11 +62,12 @@ struct ZoneSystem2: View {
                         ForEach(zones.indices, id: \.self) { zindex in
                             HStack {
                                 VStack {
+                                    // Zones in Roman numeral
                                     Text(zones[zindex])
                                 }.frame(maxWidth: 25)
                                 
                                 VStack {
-                                    // Zones
+                                    // Zones reference in gray scale
                                     let gray_val:Double = Double(zindex) / Double(zones.count)
                                     Rectangle()
                                         .fill(Color(white: gray_val))
@@ -70,12 +75,17 @@ struct ZoneSystem2: View {
                                 }.frame(maxWidth: 90)
                                 
                                 VStack {
+                                    // Computed exposure values against zones
+                                    
                                     // Find the arithmetic mean of exposure 1 & 2
                                     let zone_five_exposure:Int = (shutter_speed1 + shutter_speed2)/2
-                                    
                                     let speed:Int = zone_five_exposure - 5 + zindex
+                                    
                                     if speed >= 0 && speed < shutter_speeds.count {
-                                        if(speed == shutter_speed1) {
+                                        if(zindex == 5) {
+                                            Text(shutter_speeds[speed])
+                                                .bold()
+                                        } else if(speed == shutter_speed1) {
                                             Text(shutter_speeds[speed])
                                             .foregroundColor(.blue)
                                         } else if(speed == shutter_speed2) {
