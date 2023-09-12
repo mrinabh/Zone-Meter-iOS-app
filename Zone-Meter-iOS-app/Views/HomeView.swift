@@ -8,12 +8,10 @@
 import SwiftUI
 
 struct HomeView: View {
-    
+    var zones = Zones()
     var shutter_speeds = ["1", "1/2", "1/4", "1/8", "1/15", "1/30",
                           "1/60", "1/125", "1/250", "1/500", "1/1000",
                           "1/2000", "1/4000"]
-    var zones = ["0", "I", "II", "III", "IV", "V",
-                 "VI", "VII", "VIII", "IX", "X"]
     
     @State private var shutter_speed  = 6
     @State private var zone = 4
@@ -40,8 +38,8 @@ struct HomeView: View {
                         // Zone selection
                         Text("Zone").frame(minWidth: 200, alignment: .leading)
                         Picker("Zone Selection", selection: $zone) {
-                            ForEach(zones.indices, id: \.self) { index in
-                                Text(zones[index])
+                            ForEach(zones.zones, id: \.self) { zone in
+                                Text(zone.value)
                             }
                         }
                     }
@@ -53,25 +51,22 @@ struct HomeView: View {
                 HStack {
                     // zones
                     VStack {
-                        ForEach(zones.indices, id: \.self) { zindex in
+                        ForEach(0..<zones.zones.count, id: \.self) { index in
                             HStack {
+                                let iZone: Zone = zones.zones[index]
                                 VStack {
-                                    Text(zones[zindex])
+                                    Text(iZone.value)
                                 }.frame(maxWidth: 25)
                                 
                                 VStack {
-                                    // Zones
-                                    let gray_val:Double = Double(zindex) / Double(zones.count)
-                                    Rectangle()
-                                        .fill(Color(white: gray_val))
-                                        .frame(width: 40, height: 30)
+                                    GrayCard(zone: iZone)
                                 }.frame(maxWidth: 90)
                                 
                                 VStack {
                                     // Shutter speeds
-                                    let speed:Int = shutter_speed - zone + zindex
+                                    let speed:Int = shutter_speed - zone + index
                                     if speed >= 0 && speed < shutter_speeds.count {
-                                        if(zindex == 5) {
+                                        if(index == 5) {
                                             Text(shutter_speeds[speed])
                                                 .bold()
                                         } else if(speed == shutter_speed) {

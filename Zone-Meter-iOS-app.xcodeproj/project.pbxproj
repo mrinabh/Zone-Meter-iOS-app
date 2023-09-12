@@ -17,6 +17,8 @@
 		4B72E6BD2AABC88C00AD145F /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B72E6BC2AABC88C00AD145F /* HelpView.swift */; };
 		4BCD7F832AADBC970079C2AD /* ZoneSystem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCD7F822AADBC970079C2AD /* ZoneSystem2.swift */; };
 		4BFB96122AABBDE000B1FB7E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFB96112AABBDE000B1FB7E /* HomeView.swift */; };
+		B4AAD5D22AAD83A400987546 /* GrayCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AAD5D12AAD83A400987546 /* GrayCard.swift */; };
+		B4AAD5D52AAD853400987546 /* Zones.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AAD5D42AAD853400987546 /* Zones.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		4B72E6BC2AABC88C00AD145F /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
 		4BCD7F822AADBC970079C2AD /* ZoneSystem2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneSystem2.swift; sourceTree = "<group>"; };
 		4BFB96112AABBDE000B1FB7E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B4AAD5D12AAD83A400987546 /* GrayCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrayCard.swift; sourceTree = "<group>"; };
+		B4AAD5D42AAD853400987546 /* Zones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zones.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 		4B67CF0B2AAB183B003CBF81 /* Zone-Meter-iOS-app */ = {
 			isa = PBXGroup;
 			children = (
+				B4AAD5D32AAD852000987546 /* Constants */,
 				4BFB96102AABBDCB00B1FB7E /* Views */,
 				4B67CF0C2AAB183B003CBF81 /* Zone_Meter_iOS_appApp.swift */,
 				4B67CF0E2AAB183B003CBF81 /* ContentView.swift */,
@@ -140,8 +145,17 @@
 				4BFB96112AABBDE000B1FB7E /* HomeView.swift */,
 				4B72E6BC2AABC88C00AD145F /* HelpView.swift */,
 				4BCD7F822AADBC970079C2AD /* ZoneSystem2.swift */,
+				B4AAD5D12AAD83A400987546 /* GrayCard.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		B4AAD5D32AAD852000987546 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				B4AAD5D42AAD853400987546 /* Zones.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,9 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4AAD5D22AAD83A400987546 /* GrayCard.swift in Sources */,
 				4BFB96122AABBDE000B1FB7E /* HomeView.swift in Sources */,
 				4BCD7F832AADBC970079C2AD /* ZoneSystem2.swift in Sources */,
 				4B72E6BD2AABC88C00AD145F /* HelpView.swift in Sources */,
+				B4AAD5D52AAD853400987546 /* Zones.swift in Sources */,
 				4B67CF0F2AAB183B003CBF81 /* ContentView.swift in Sources */,
 				4B67CF0D2AAB183B003CBF81 /* Zone_Meter_iOS_appApp.swift in Sources */,
 			);
