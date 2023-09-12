@@ -22,6 +22,8 @@ struct GrayCard: View {
     }
 }
 
-#Preview {
-    GrayCard(zone: Zone(value: "I", id: 1, description: ""))
+struct GrayCard_Previews: PreviewProvider {
+    static var previews: some View {
+        GrayCard(zone: Zone(value: "V", id: 6, description: ""))
+    }
 }
