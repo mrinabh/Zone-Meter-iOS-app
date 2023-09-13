@@ -1,10 +1,3 @@
-//
-//  GrayCard.swift
-//  Zone-Meter-iOS-app
-//
-//  Created by jens titterness on 9/9/23.
-//
-
 import SwiftUI
 
 struct GrayCard: View {
@@ -19,6 +12,7 @@ struct GrayCard: View {
         Rectangle()
             .fill(Color(white: gray_val))
             .frame(width: 40, height: 30)
+            .border(.black, width: 1)
     }
 }
 

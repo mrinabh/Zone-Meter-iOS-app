@@ -1,11 +1,6 @@
 import Foundation
 
-
-//var zones =
-
-
 struct Zone: Hashable {
-//    public let value: String
     public let value: String
     public let id: Int
     public let description: String
@@ -13,10 +8,6 @@ struct Zone: Hashable {
 }
 
 struct Zones: Hashable {
-//    static func == (lhs: Zones, rhs: Zones) -> Bool {
-//        return true
-//    }
-    
     public var zones: [Zone] = []
     private let romanValues = ["0", "I", "II", "III", "IV", "V",
                                "VI", "VII", "VIII", "IX", "X"]
@@ -46,21 +37,3 @@ struct Zones: Hashable {
         }
     }
 }
-
-//enum Zones: String, CaseIterable {
-//    case zero = "0"
-//    case one = "I"
-//    case two = "II"
-//    case three = "III"
-//    case four = "IV"
-//    case five = "V"
-//    case six = "VI"
-//    case seven = "VII"
-//    case eight = "VIII"
-//    case nine = "IX"
-//    case ten = "X"
-//    
-//    func toInt() {
-//        
-//    }
-//}
