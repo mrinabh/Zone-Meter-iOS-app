@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B2BCC532AB2FA0A009A336C /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2BCC522AB2FA0A009A336C /* AboutView.swift */; };
 		4B67CF0D2AAB183B003CBF81 /* Zone_Meter_iOS_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67CF0C2AAB183B003CBF81 /* Zone_Meter_iOS_appApp.swift */; };
 		4B67CF0F2AAB183B003CBF81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67CF0E2AAB183B003CBF81 /* ContentView.swift */; };
 		4B67CF112AAB183C003CBF81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B67CF102AAB183C003CBF81 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B2BCC522AB2FA0A009A336C /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		4B67CF092AAB183B003CBF81 /* Zone-Meter-iOS-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zone-Meter-iOS-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B67CF0C2AAB183B003CBF81 /* Zone_Meter_iOS_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zone_Meter_iOS_appApp.swift; sourceTree = "<group>"; };
 		4B67CF0E2AAB183B003CBF81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				4B72E6BC2AABC88C00AD145F /* HelpView.swift */,
 				4BCD7F822AADBC970079C2AD /* ZoneSystem2.swift */,
 				B4AAD5D12AAD83A400987546 /* GrayCard.swift */,
+				4B2BCC522AB2FA0A009A336C /* AboutView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B2BCC532AB2FA0A009A336C /* AboutView.swift in Sources */,
 				B4AAD5D22AAD83A400987546 /* GrayCard.swift in Sources */,
 				4BFB96122AABBDE000B1FB7E /* HomeView.swift in Sources */,
 				4BCD7F832AADBC970079C2AD /* ZoneSystem2.swift in Sources */,
