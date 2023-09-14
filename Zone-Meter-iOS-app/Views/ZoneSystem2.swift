@@ -40,9 +40,11 @@ struct ZoneSystem2: View {
                                 Text(shutter_speeds[index])
                             }
                         }
+                        .pickerStyle(.wheel)
+                        .frame(maxHeight: 70)
                     }
                     .frame(minWidth: 300, alignment: .leading)
-                    
+                    Divider()
                     HStack {
                         // Exposure selection
                         Text("Exposure 2")
@@ -53,6 +55,8 @@ struct ZoneSystem2: View {
                                 Text(shutter_speeds[index])
                             }
                         }
+                        .pickerStyle(.wheel)
+                        .frame(maxHeight: 70)
                     }
                     .frame(minWidth: 300, alignment: .leading)
 
