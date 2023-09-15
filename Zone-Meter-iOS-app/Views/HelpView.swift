@@ -21,27 +21,33 @@ struct HelpView: View {
                         .font(.caption)
                         .foregroundColor(.gray)
                 }
-                HStack {
-                    VStack {
-                        ForEach(0..<zones.zones.count, id: \.self) { index in
-                            let zone: Zone = zones.zones[index]
-                            Divider()
-                            HStack {
-                                VStack {
-                                    Text(zone.value)
-                                }.frame(minWidth: 30)
-                                VStack {
-                                    GrayCard(zone: zone)
-                                }.frame(maxWidth: 25)
-                                VStack {
-                                    Text(zone.description)
-                                        .font(.caption2)
-                                }.frame(minWidth: 300, alignment: .leading)
+                ScrollView {
+                    
+                    
+                    HStack {
+                        VStack {
+                            ForEach(0..<zones.zones.count, id: \.self) { index in
+                                let zone: Zone = zones.zones[index]
+                                Divider()
+                                HStack {
+                                    VStack {
+                                        Text(zone.value)
+                                    }.frame(minWidth: 30)
+                                    VStack {
+                                        GrayCard(zone: zone)
+                                    }.frame(maxWidth: 25)
+                                    VStack {
+                                        Text(zone.description)
+                                            .font(.caption2)
+                                            .multilineTextAlignment(.leading)
+                                            .lineLimit(nil)
+                                            .padding(.leading)
+                                    }.frame(minWidth: 300, alignment: .leading)
+                                }
                             }
                         }
-                    }
-                }.frame(minHeight: 50)
-                
+                    }.frame(minHeight: 50)
+                }
             }
         }
     }
