@@ -11,7 +11,7 @@ struct GrayCard: View {
     var body: some View {
         Rectangle()
             .fill(Color(white: gray_val))
-            .frame(width: 40, height: 30)
+            .frame(width: 30, height: 30)
             .border(.black, width: 1)
     }
 }

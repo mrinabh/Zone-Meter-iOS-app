@@ -24,6 +24,10 @@ struct ContentView: View {
                 .tabItem {
                     Image(systemName: "questionmark.circle");Text("Help")
                 }.tag(3)
+            AboutView()
+                .tabItem {
+                    Image(systemName: "person.2");Text("About")
+                }.tag(3)
         }
     }
 }
