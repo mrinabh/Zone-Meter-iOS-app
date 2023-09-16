@@ -18,6 +18,6 @@ struct GrayCard: View {
 
 struct GrayCard_Previews: PreviewProvider {
     static var previews: some View {
-        GrayCard(zone: Zone(value: "V", id: 6, description: ""))
+        GrayCard(zone: Zone(value: "V", id: 6, description: "Preview"))
     }
 }
