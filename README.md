@@ -26,5 +26,5 @@ X     --
 
 Note: Since our exposure range is 1 second to 1/4000 second, Zone X in the example above is outside the bounds therefore, no exp value is displayed. Similarly, Zones below min exposure could fall out of range.
 
-![App help screen](https://github.com/mrinabh/Zone-Meter-iOS-app/blob/zone-system-app-dev/Simulator%20Screenshot%20-%20iPhone%2014%20Pro%20-%20Home.png)
-![App help screen](https://github.com/mrinabh/Zone-Meter-iOS-app/blob/zone-system-app-dev/Simulator%20Screenshot%20-%20iPhone%2014%20Pro%20-%20Help.png)
+![App help screen](https://github.com/mrinabh/Zone-Meter-iOS-app/blob/main/Simulator%20Screenshot%20-%20iPhone%2014%20Pro%20-%20Help.png)
+![App help screen](https://github.com/mrinabh/Zone-Meter-iOS-app/blob/main/Simulator%20Screenshot%20-%20iPhone%2014%20Pro%20-%20Home.png)
