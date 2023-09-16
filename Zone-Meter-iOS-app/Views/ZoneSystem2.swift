@@ -41,7 +41,7 @@ struct ZoneSystem2: View {
                             }
                         }
                         .pickerStyle(.wheel)
-                        .frame(maxHeight: 70)
+                        .frame(maxHeight: 100)
                     }
                     .frame(minWidth: 300, alignment: .leading)
                     Divider()
@@ -56,7 +56,7 @@ struct ZoneSystem2: View {
                             }
                         }
                         .pickerStyle(.wheel)
-                        .frame(maxHeight: 70)
+                        .frame(maxHeight: 100)
                     }
                     .frame(minWidth: 300, alignment: .leading)
 
