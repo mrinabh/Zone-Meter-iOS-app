@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  Zone-Meter-iOS-app
+
+  Created by Mrinabh Dutta on 9/17/23.
+  
+*/
+"Zone_0" = "Complete lack of density in the negative image. Total black in print";
+"Zone_1" = "Complete lack of density in the negative image. Total black in print";
+"Zone_2" = "First step above black, slight tonality, but no texture";
+"Zone_3" = "First suggestion of texture. Deep tonalities, representing the darkest part of the image in which some detail is required";
+"Zone_4" = "Average dark materials. Low values showing adequate texture";
+"Zone_5" = "Average dark foliage. Dark stone. Landscape shadow";
+"Zone_6" = "Dark skin, gray stone, weathered wood. Middle gray";
+"Zone_7" = "Average light skin value in sunlight. Shadows on snow in sunlit snowscapes. Light stone, clear north sky";
+"Zone_8" = "Very light skin, light gray objects";
+"Zone_9" = "White with textures and delicate values";
+"Zone_10" = "Glaring white surfaces. Snow in flat sunlight White without texture";
+"Zone_11" = "Light sources, actual or reflected. Printed at maximum white value";
