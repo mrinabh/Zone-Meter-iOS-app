@@ -27,6 +27,8 @@ struct HomeView: View {
         ) {
             GroupBox {
                 VStack {
+                    Text("Enter exposure reading from your light meter and select desired Zone for it:")
+                        .font(.caption)
                     HStack {
                         // Exposure selection
                         Text("Exposure").frame(minWidth: 200, alignment: .leading)
