@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B0B3E912AB701F300EA7895 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B0B3E932AB701F300EA7895 /* Localizable.strings */; };
+		4B2BCC532AB2FA0A009A336C /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2BCC522AB2FA0A009A336C /* AboutView.swift */; };
 		4B67CF0D2AAB183B003CBF81 /* Zone_Meter_iOS_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67CF0C2AAB183B003CBF81 /* Zone_Meter_iOS_appApp.swift */; };
 		4B67CF0F2AAB183B003CBF81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67CF0E2AAB183B003CBF81 /* ContentView.swift */; };
 		4B67CF112AAB183C003CBF81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B67CF102AAB183C003CBF81 /* Assets.xcassets */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B0B3E922AB701F300EA7895 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4B2BCC522AB2FA0A009A336C /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		4B67CF092AAB183B003CBF81 /* Zone-Meter-iOS-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zone-Meter-iOS-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B67CF0C2AAB183B003CBF81 /* Zone_Meter_iOS_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zone_Meter_iOS_appApp.swift; sourceTree = "<group>"; };
 		4B67CF0E2AAB183B003CBF81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,6 +88,7 @@
 		4B67CF002AAB183B003CBF81 = {
 			isa = PBXGroup;
 			children = (
+				4B0B3E932AB701F300EA7895 /* Localizable.strings */,
 				4B67CF0B2AAB183B003CBF81 /* Zone-Meter-iOS-app */,
 				4B67CF1C2AAB183C003CBF81 /* Zone-Meter-iOS-appTests */,
 				4B67CF262AAB183C003CBF81 /* Zone-Meter-iOS-appUITests */,
@@ -146,6 +151,7 @@
 				4B72E6BC2AABC88C00AD145F /* HelpView.swift */,
 				4BCD7F822AADBC970079C2AD /* ZoneSystem2.swift */,
 				B4AAD5D12AAD83A400987546 /* GrayCard.swift */,
+				4B2BCC522AB2FA0A009A336C /* AboutView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -263,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B67CF142AAB183C003CBF81 /* Preview Assets.xcassets in Resources */,
+				4B0B3E912AB701F300EA7895 /* Localizable.strings in Resources */,
 				4B67CF112AAB183C003CBF81 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B2BCC532AB2FA0A009A336C /* AboutView.swift in Sources */,
 				B4AAD5D22AAD83A400987546 /* GrayCard.swift in Sources */,
 				4BFB96122AABBDE000B1FB7E /* HomeView.swift in Sources */,
 				4BCD7F832AADBC970079C2AD /* ZoneSystem2.swift in Sources */,
@@ -329,6 +337,17 @@
 			targetProxy = 4B67CF242AAB183C003CBF81 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B0B3E932AB701F300EA7895 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B0B3E922AB701F300EA7895 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4B67CF2B2AAB183C003CBF81 /* Debug */ = {

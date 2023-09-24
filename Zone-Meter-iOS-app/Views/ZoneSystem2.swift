@@ -31,6 +31,11 @@ struct ZoneSystem2: View {
             GroupBox {
                 VStack {
                     HStack {
+                        Text("Take two light meter readings preferrably of the darkest and the lightest areas in the frame of view, then set them as Exposure 1 and 2:")
+                            .font(.caption)
+                    }
+                    .frame(minHeight: 50)
+                    HStack {
                         // Exposure selection
                         Text("Exposure 1")
                             .frame(minWidth: 200, alignment: .leading)
@@ -40,9 +45,11 @@ struct ZoneSystem2: View {
                                 Text(shutter_speeds[index])
                             }
                         }
+                        .pickerStyle(.wheel)
+                        .frame(maxHeight: 100)
                     }
                     .frame(minWidth: 300, alignment: .leading)
-                    
+                    Divider()
                     HStack {
                         // Exposure selection
                         Text("Exposure 2")
@@ -53,6 +60,8 @@ struct ZoneSystem2: View {
                                 Text(shutter_speeds[index])
                             }
                         }
+                        .pickerStyle(.wheel)
+                        .frame(maxHeight: 100)
                     }
                     .frame(minWidth: 300, alignment: .leading)
 

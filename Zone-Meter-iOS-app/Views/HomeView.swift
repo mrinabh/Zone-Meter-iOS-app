@@ -27,6 +27,8 @@ struct HomeView: View {
         ) {
             GroupBox {
                 VStack {
+                    Text("Enter exposure reading from your light meter and select desired Zone for it:")
+                        .font(.caption)
                     HStack {
                         // Exposure selection
                         Text("Exposure").frame(minWidth: 200, alignment: .leading)
@@ -35,6 +37,8 @@ struct HomeView: View {
                                 Text(shutter_speeds[index]).tag(shutter_speeds[index])
                             }
                         }.tag(0)
+                            .pickerStyle(.wheel)
+                            .frame(maxHeight: 70)
                     }
                     .frame(minWidth: 300, alignment: .leading)
                     
@@ -46,6 +50,8 @@ struct HomeView: View {
                                 Text(zone.value).tag(zone.value)
                             }
                         }
+                        .pickerStyle(.wheel)
+                        .frame(maxHeight: 70)
                     }
                     .frame(minWidth: 300, alignment: .leading)
                 }

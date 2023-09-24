@@ -22,8 +22,6 @@ struct HelpView: View {
                         .foregroundColor(.gray)
                 }
                 ScrollView {
-                    
-                    
                     HStack {
                         VStack {
                             ForEach(0..<zones.zones.count, id: \.self) { index in
@@ -43,8 +41,38 @@ struct HelpView: View {
                                             .lineLimit(nil)
                                             .padding(.leading)
                                     }.frame(minWidth: 300, alignment: .leading)
-                                }
+                                }.frame(minHeight: 30)
                             }
+                        }
+                    }.frame(minHeight: 50)
+                    Divider()
+                    HStack {
+                        VStack {
+                            Label("Single Exposure", systemImage: "camera.metering.matrix")
+                                .font(.headline)
+                                .frame(minHeight: 50)
+                            Text("This is the most simple way to use Zone system but you are limited to using only one meter reading and then pick a zone for it. The app will return exposure values for all zones.")
+                                .font(.caption)
+                                .foregroundColor(.gray)
+                            Image("Single-Exp")
+                                .resizable()
+                                    .aspectRatio(contentMode: .fit)
+                        }
+                        
+                        
+                    }.frame(minHeight: 50)
+                    
+                    HStack {
+                        VStack {
+                            Label("Multi Exposure", systemImage: "camera.metering.multispot")
+                                .font(.headline)
+                                .frame(minHeight: 50)
+                            Text("This version allows you to use two meter readings, the system will find the average of the two readings and set Zone V (or middle gray) to the mean exposure that is exactly half way between the readings. It will also display warnings when a measured reading is for instance outside the zone system, or when the metered values fall below Zone II or above Zone VIII.")
+                                .font(.caption)
+                                .foregroundColor(.gray)
+                            Image("Multi-Exp")
+                                .resizable()
+                                    .aspectRatio(contentMode: .fit)
                         }
                     }.frame(minHeight: 50)
                 }
