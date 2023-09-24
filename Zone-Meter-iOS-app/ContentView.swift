@@ -11,19 +11,13 @@ struct ContentView: View {
     
     
     var body: some View {
-        TabView(selection: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Selection@*/.constant(1)/*@END_MENU_TOKEN@*/) {
-            HomeView()
-                .tabItem {
-                    Image(systemName: "camera.metering.matrix");Text("Single Exposure")
-                }.tag(1)
-            ZoneSystem2()
-                .tabItem {
-                    Image(systemName: "camera.metering.multispot");Text("Multi Exposure")
-                }.tag(2)
-            HelpView()
-                .tabItem {
-                    Image(systemName: "questionmark.circle");Text("Help")
-                }.tag(3)
+        NavigationStack {
+            List {
+                NavigationLink("Single", destination: HomeView())
+                NavigationLink("multi", destination: ZoneSystem2())
+                NavigationLink("help", destination: HelpView())
+            }.listStyle(.sidebar)
+                .navigationTitle("Meter")
         }
     }
 }
