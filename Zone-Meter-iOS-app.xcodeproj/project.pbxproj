@@ -18,7 +18,7 @@
 		4B67CF2A2AAB183C003CBF81 /* Zone_Meter_iOS_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67CF292AAB183C003CBF81 /* Zone_Meter_iOS_appUITestsLaunchTests.swift */; };
 		4B72E6BD2AABC88C00AD145F /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B72E6BC2AABC88C00AD145F /* HelpView.swift */; };
 		4BCD7F832AADBC970079C2AD /* ZoneSystem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCD7F822AADBC970079C2AD /* ZoneSystem2.swift */; };
-		4BFB96122AABBDE000B1FB7E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFB96112AABBDE000B1FB7E /* HomeView.swift */; };
+		4BFB96122AABBDE000B1FB7E /* ZoneSystem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFB96112AABBDE000B1FB7E /* ZoneSystem1.swift */; };
 		B4AAD5D22AAD83A400987546 /* GrayCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AAD5D12AAD83A400987546 /* GrayCard.swift */; };
 		B4AAD5D52AAD853400987546 /* Zones.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AAD5D42AAD853400987546 /* Zones.swift */; };
 /* End PBXBuildFile section */
@@ -55,7 +55,7 @@
 		4B67CF292AAB183C003CBF81 /* Zone_Meter_iOS_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zone_Meter_iOS_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4B72E6BC2AABC88C00AD145F /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
 		4BCD7F822AADBC970079C2AD /* ZoneSystem2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneSystem2.swift; sourceTree = "<group>"; };
-		4BFB96112AABBDE000B1FB7E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4BFB96112AABBDE000B1FB7E /* ZoneSystem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneSystem1.swift; sourceTree = "<group>"; };
 		B4AAD5D12AAD83A400987546 /* GrayCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrayCard.swift; sourceTree = "<group>"; };
 		B4AAD5D42AAD853400987546 /* Zones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zones.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,7 +147,7 @@
 		4BFB96102AABBDCB00B1FB7E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4BFB96112AABBDE000B1FB7E /* HomeView.swift */,
+				4BFB96112AABBDE000B1FB7E /* ZoneSystem1.swift */,
 				4B72E6BC2AABC88C00AD145F /* HelpView.swift */,
 				4BCD7F822AADBC970079C2AD /* ZoneSystem2.swift */,
 				B4AAD5D12AAD83A400987546 /* GrayCard.swift */,
@@ -228,7 +228,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1510;
 				TargetAttributes = {
 					4B67CF082AAB183B003CBF81 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -297,7 +297,7 @@
 			files = (
 				4B2BCC532AB2FA0A009A336C /* AboutView.swift in Sources */,
 				B4AAD5D22AAD83A400987546 /* GrayCard.swift in Sources */,
-				4BFB96122AABBDE000B1FB7E /* HomeView.swift in Sources */,
+				4BFB96122AABBDE000B1FB7E /* ZoneSystem1.swift in Sources */,
 				4BCD7F832AADBC970079C2AD /* ZoneSystem2.swift in Sources */,
 				4B72E6BD2AABC88C00AD145F /* HelpView.swift in Sources */,
 				B4AAD5D52AAD853400987546 /* Zones.swift in Sources */,
@@ -354,6 +354,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -386,6 +387,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -414,6 +416,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -446,6 +449,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

@@ -13,11 +13,11 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             List {
-                NavigationLink("Single", destination: HomeView())
-                NavigationLink("multi", destination: ZoneSystem2())
-                NavigationLink("help", destination: HelpView())
+                NavigationLink("Single zone readout", destination: HomeView())
+                NavigationLink("Two zones readout", destination: ZoneSystem2())
+                NavigationLink("Help & Documentation", destination: HelpView())
             }.listStyle(.sidebar)
-                .navigationTitle("Meter")
+                .navigationTitle("Zone Meter Tool")
         }
     }
 }
